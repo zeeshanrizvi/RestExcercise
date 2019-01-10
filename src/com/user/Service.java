@@ -94,7 +94,7 @@ public class Service {
     	          Message message = new MimeMessage(session);
 			      message.setFrom(new InternetAddress(Service.smtpFromUserAddress));
 			      message.setRecipients(Message.RecipientType.TO,
-				  InternetAddress.parse("zeeshan.riz.shaik@hpe.com"));
+				  InternetAddress.parse(UserId));
 			      message.setSubject("Mail Verification");
 			      message.setText("http://"+Service.ip+":"+Service.port+"/Login?"+UserId);
                   // Send message  
