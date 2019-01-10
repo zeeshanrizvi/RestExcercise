@@ -1,0 +1,25 @@
+PROJECT GOAL: This java Project implements following web rest services
+
+PROJECT PRE-REQ:
+        1. JDK 1.8
+        2. Eclipse IDE
+        3. http-2.2.1.jar
+        4. javax.mail.jar
+        5. smtp configurations
+        
+WEB SERVICES:
+1. User Registration :
+   Ex:
+      POST http://localhost:8067/Register
+      {"name":"Zeeshan","email":"zeeshan.rizvi010@gmail.com","pincode":"560075"}
+      
+2. User Email Verification by sending dynamic http link to mail which expires in 15 minutes :
+   Ex:
+      PUT http://localhost:8067/VerifyEmail
+      {"userid":"zeeshan.rizvi010@gmail.com"}
+      
+3. User Info dump on clicking http link sent to mail:
+   Ex:
+      GET http://localhost:8067/Login?zeeshan.rizvi010@gmail.com
+      
+  
