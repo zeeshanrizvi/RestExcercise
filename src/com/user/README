@@ -5,7 +5,8 @@ PROJECT PRE-REQ:
         2. Eclipse IDE
         3. http-2.2.1.jar
         4. javax.mail.jar
-        5. smtp configurations
+        5. javax ws rs jar
+        6. smtp configurations
         
 WEB SERVICES:
 1. User Registration :
